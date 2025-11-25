@@ -1,0 +1,160 @@
+
+        /* Estilo do rodapé no topo */
+        @font-face {
+            font-family: 'Ajwadh';
+            src: url('fonts/salmaan.ttf') format('truetype');
+            }
+            @font-face {
+            font-family: 'Gumali';
+            src: url('fonts/gumela-arabic-3.ttf') format('truetype');
+            }
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('imagens/images.jpg');
+            background-position: top, center;
+            background-repeat: no-repeat, no-repeat;
+            background-size: cover, contain;
+            
+        }
+        
+        .alinhamento {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .texto {
+        width: 60%; /* Ajusta o tamanho do texto */
+        }
+        .card {
+        width: 18rem;
+        }
+        .texto{
+            font-family: 'Gumali', sans-serif;
+            color: #edeceb;
+            font-size: 20px;
+        }
+        .link2{
+            font-family: 'Ajwadh', sans-serif;
+            background: linear-gradient(to right, #DAA520, rgb(226, 223, 223));
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 30px;
+            margin: 0;
+            line-height: 1;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+        .card-text{
+            font-family: 'Gumali', sans-serif;
+            font-size: 18px;
+        }
+        .titulo{
+            font-family: 'Ajwadh', sans-serif;
+            font-weight: bold;
+            background: linear-gradient(to right, #DAA520, rgb(226, 223, 223));
+            -webkit-background-clip: text; 
+            color: transparent;
+            font-size: 120px; /* Tamanho da fonte */
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            margin: 0;
+            align-items: center;
+        }
+        .titulo2{
+            font-family: 'Ajwadh', sans-serif;
+            color: white;
+            font-size: 48px; /* Tamanho da fonte */
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            margin: 0;
+        }
+        #top-footer {
+            text-align: center;
+            position: fixed; /* Fixa na parte superior da página */
+            top: 0;
+            height: 80px;
+            background-color: rgba(255, 255, 255, 0);
+            width: 100%;
+            z-index: 1000;
+            display: flex; /* Torna o rodapé flexível */
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            padding: 10px 0; /* Espaço superior e inferior */
+            
+        }
+
+        #top-footer .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px; /* Espaçamento uniforme entre os itens */
+        }
+        .card{
+            width: 350px;
+        }
+        .card2{
+            width: 450px;
+        }
+        .link {
+            margin-right: 20px; /* Espaço entre os links */
+            text-decoration: none; /* Remove o sublinhado */
+            color: black; /* Cor dos links */
+        }
+
+        /* Ajuste da imagem no meio */
+        #top-footer img {
+            margin: 0 30px; /* Espaço ao redor da imagem */
+        }
+        h2{
+            font-family: 'Ajwadh', sans-serif;
+            color: white;
+            font-size: 54px;
+            font-weight: bold;
+        }
+        #bottom-footer {
+            background: linear-gradient(to top, #DAA520 15%, rgba(218, 165, 32, 0) 85%); /* Degradê com menos transparência */
+            height: 100px; /* Altura do rodapé */
+            width: 100%; /* Largura total da página */
+            position: fixed; /* Fixa na parte inferior da página */
+            bottom: 0;
+            display: flex; /* Flexbox para alinhamento */
+            align-items: center; /* Centraliza verticalmente o conteúdo */
+            justify-content: center; /* Centraliza horizontalmente o conteúdo */
+            color: white; /* Cor do texto */
+            font-family: Arial, sans-serif; /* Fonte do texto */
+            z-index: 1000;
+        }
+        
+
+
+        .site-footer {
+            background: linear-gradient(to top, #DAA520 60%, rgba(218, 165, 32, 0) 100%); /* Gradiente mais suave */
+            height: 100px; /* Altura do rodapé */
+            width: 100%; /* Largura total da página */
+            display: flex; /* Flexbox para alinhamento */
+            align-items: center; /* Centraliza verticalmente o conteúdo */
+            justify-content: center; /* Centraliza horizontalmente o conteúdo */
+            color: white; /* Cor do texto */
+            font-family: Arial, sans-serif; /* Fonte do texto */
+            margin-top: 50px; /* Espaço entre o rodapé e o restante do conteúdo */
+            /* Removendo a borda */
+            /* border-top: 1px solid #DAA520; */
+        }
+        
+        .footer-container {
+            text-align: center; /* Centraliza o texto e os links */
+        }
+        
+        .footer-link {
+            margin: 0 10px; /* Espaçamento entre os links */
+            color: white; /* Cor dos links */
+            text-decoration: none; /* Remove sublinhado dos links */
+            font-weight: bold; /* Negrito nos links */
+        }
+        
+        .footer-link:hover {
+            text-decoration: underline; /* Sublinhado ao passar o mouse */
+        }
